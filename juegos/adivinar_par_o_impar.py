@@ -1,6 +1,6 @@
 import random
 def adivinar_par_o_impar():
-    n = input("¿El numero sera par o impar? Elige 1 para impar y 2 para par")
+    n = input("¿El numero sera par o impar? Elige 1 para impar y 2 para par: ")
     par = False
     a = random.randint(1,10)
     if a%2==0:
